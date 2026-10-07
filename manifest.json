@@ -1,0 +1,17 @@
+{
+  "name": "Мои цифры",
+  "short_name": "Мои цифры",
+  "description": "Простой счётчик для всего, что важно",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f5f7",
+  "theme_color": "#111111",
+  "icons": [
+    {
+      "src": "./my-life-counters-icon-variant-2.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
