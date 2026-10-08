@@ -135,5 +135,10 @@ function showAchievementMessage(icon,text){const m=document.createElement("div")
 window.changeCounter=changeCounter;window.deleteCounter=deleteCounter;window.editCounter=editCounter;window.openStats=openStats;
 renderCounters();
 </script>
+  <script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js");
+}
+</script>
 </body>
 </html>
